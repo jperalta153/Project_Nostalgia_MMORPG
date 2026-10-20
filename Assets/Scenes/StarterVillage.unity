@@ -183,7 +183,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.20392157, g: 0.5411765, b: 0.26666668, a: 1}
@@ -220,6 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316043375}
   - component: {fileID: 316043376}
+  - component: {fileID: 316043377}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -258,6 +259,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerIdentity
   characterName: NoviceKnight
   characterLevel: 1
+--- !u!114 &316043377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316043373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dab905b3d1f3dd489176821ff7226d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStats
+  baseHealth: 100
+  strength: 10
+  weaponDamage: 5
+  gold: 100
 --- !u!1 &576668704
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,7 +811,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5411765, g: 0.56078434, b: 0.59607846, a: 1}
