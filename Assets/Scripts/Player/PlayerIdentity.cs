@@ -15,10 +15,7 @@ public class PlayerIdentity : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Debug.Log(characterName + " pressed Space!");
-        }
+
     }
 
 }
